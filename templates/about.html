@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Churn Predictor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-green-50 to-gray-100 min-h-screen">
+
+    <!-- Bouton Accueil -->
+    <div class="fixed top-4 right-4 z-50">
+        <a href="/"
+           class="bg-gray-900 text-white px-4 py-2 rounded-full shadow-lg 
+                  hover:bg-black transition text-sm sm:text-base">
+            Accueil
+        </a>
+    </div>
+
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16 space-y-16">
+
+        <!-- HERO -->
+        <div class="text-center">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-green-700 mb-4 sm:mb-6">
+                Intelligence Artificielle pour prédire le churn client
+            </h1>
+            <p class="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                Anticipez les départs clients grâce à un modèle intelligent capable d’analyser
+                les comportements et d’identifier les risques avec précision.
+            </p>
+        </div>
+
+        <!-- COMMENT ÇA MARCHE -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10">
+            <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-lg text-center">
+                <div class="text-3xl sm:text-4xl mb-3 sm:mb-4">📥</div>
+                <h3 class="text-lg sm:text-xl font-bold mb-1 sm:mb-2">1. Saisir les données</h3>
+                <p class="text-sm sm:text-base text-gray-600">
+                    Entrez les informations d’un client ou importez un fichier CSV.
+                </p>
+            </div>
+
+            <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-lg text-center">
+                <div class="text-3xl sm:text-4xl mb-3 sm:mb-4">🧠</div>
+                <h3 class="text-lg sm:text-xl font-bold mb-1 sm:mb-2">2. Analyse IA</h3>
+                <p class="text-sm sm:text-base text-gray-600">
+                    Le modèle analyse les données et calcule un score de risque précis.
+                </p>
+            </div>
+
+            <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-lg text-center">
+                <div class="text-3xl sm:text-4xl mb-3 sm:mb-4">📊</div>
+                <h3 class="text-lg sm:text-xl font-bold mb-1 sm:mb-2">3. Résultat</h3>
+                <p class="text-sm sm:text-base text-gray-600">
+                    Obtenez une probabilité de churn ainsi qu’une visualisation claire.
+                </p>
+            </div>
+        </div>
+
+        <!-- ADAPTABILITÉ -->
+        <div class="bg-green-600 text-white p-6 sm:p-10 rounded-3xl shadow-xl text-center">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-2 sm:mb-4">🔄 Modèle Adaptable et Évolutif</h2>
+            <p class="text-sm sm:text-base md:text-lg max-w-3xl mx-auto">
+                Le modèle d’intelligence artificielle n’est pas figé. 
+                L’administrateur peut le réentraîner et l’ajuster afin 
+                de l’adapter aux nouvelles données et aux réalités spécifiques 
+                de l’entreprise.
+                <br><br>
+                Cela permet une amélioration continue des performances 
+                et une adaptation aux changements du marché.
+            </p>
+        </div>
+
+        <!-- ACTIONS -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
+            <a href="/single"
+               class="bg-white p-6 sm:p-10 rounded-2xl shadow-lg hover:shadow-2xl transition text-center flex flex-col items-center">
+                <div class="text-4xl sm:text-5xl mb-2 sm:mb-4">👤</div>
+                <h3 class="text-lg sm:text-2xl font-bold mb-1 sm:mb-2 text-green-700">
+                    Prédiction Individuelle
+                </h3>
+                <p class="text-sm sm:text-base text-gray-600">
+                    Analysez le risque de churn pour un client spécifique.
+                </p>
+            </a>
+
+            <a href="/batch"
+               class="bg-white p-6 sm:p-10 rounded-2xl shadow-lg hover:shadow-2xl transition text-center flex flex-col items-center">
+                <div class="text-4xl sm:text-5xl mb-2 sm:mb-4">📁</div>
+                <h3 class="text-lg sm:text-2xl font-bold mb-1 sm:mb-2 text-green-700">
+                    Analyse CSV
+                </h3>
+                <p class="text-sm sm:text-base text-gray-600">
+                    Importez un fichier et analysez plusieurs clients simultanément.
+                </p>
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
