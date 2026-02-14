@@ -23,8 +23,7 @@ Prédire si un client d'une entreprise de télécommunications va quitter le ser
 .
 ├── main.py                 # Application FastAPI principale
 ├── train_model.py          # Script d'entraînement du modèle
-├── film.py                 # Script d'exemple avec DecisionTree
-├── churn_pipeline.pkl      # Modèle sauvegardé (KNN)
+├── churn_pipeline.pkl      # Modèle sauvegardé (KNN) 
 ├── requirements.txt        # Dépendances Python
 │
 └── templates/              # Templates HTML
