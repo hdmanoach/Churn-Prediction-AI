@@ -45,8 +45,8 @@ Prédire si un client d'une entreprise de télécommunications va quitter le ser
 
 1. **Cloner le répertoire**
 ```bash
-git clone <votre-repo>
-cd "Datas IA"
+git clone https://github.com/hdmanoach/Churn-Prediction-AI.git
+cd "Churn-Prediction-AI"
 ```
 
 2. **Créer un environnement virtuel**
@@ -161,9 +161,6 @@ Application FastAPI avec tous les endpoints et logique de prédiction.
 ### [train_model.py](train_model.py)
 Script d'entraînement du modèle KNN avec préprocessing complet.
 
-### [film.py](film.py)
-Exemple d'utilisation avec DecisionTree (démo pédagogique).
-
 ## 📝 Format du CSV pour prediction batch
 
 ```csv
@@ -196,7 +193,7 @@ MIT License - Libre d'utilisation
 
 ## 👨‍💻 Auteur
 
-Manoach - Data Science & AI
+HOSSOU DODO Manoach 
 
 ---
 
